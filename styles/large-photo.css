@@ -17,5 +17,19 @@ a.backButton {
     z-index: 1;
     text-decoration: none;
 }
+@media print {
 
+    img{
+            width: 100%;
+    }
+    body>p{
+        margin-top: -40px;
+    }
+    body>a{
+        display: none;
+    }
+    p>a{
+        display: none;
+    }
+    }
 /* Your code here */

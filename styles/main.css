@@ -51,5 +51,21 @@ nav a.selected {
     color: #000021;
     cursor: default;
 }
-
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 /* Your code here */
+@media print {
+    nav{
+        display: none;
+    }
+}
+
+@media (max-width: 520px){
+    a{
+        text-decoration: underline;
+    }
+}
