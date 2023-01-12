@@ -41,7 +41,7 @@
 }
 @media (min-width:1500px) and (max-width:1800px){
     .photo-card{
-        width: 30%;
+        width: 40%;
         display: inline-block;
     }
     .photo-card .content{
